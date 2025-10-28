@@ -49,9 +49,4 @@ Diseñado para grupos juveniles y células cristianas. Siéntete libre de usar, 
 
 ## Licencia y marca
 
-Esta versión se creó a partir de la idea de un juego comercial. Para evitar problemas de marca y derechos de autor:
-
-- Se renombró la aplicación a "Revela" en la interfaz y la documentación.
-- No se incluye material con copyright del producto original.
-
-Si planeas publicar o distribuir públicamente este proyecto, considera revisar la legislación local sobre marcas y derechos de autor o consultar con un asesor legal.
+Esta versión se creó a partir de la idea de un juego comercial.
