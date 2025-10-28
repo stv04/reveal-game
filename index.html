@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Revela — Juego de grupo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas id="confetti"></canvas>
+  <div class="wrap">
+    <header>
+  <h1>🎲 Revela</h1>
+      <div class="meta small">Toca la carta o los botones para jugar</div>
+    </header>
+
+    <div class="controls" aria-hidden>
+      <div class="row" style="flex:1;flex-wrap:wrap">
+        <button class="btn" data-deck="luz">🌟 Luz</button>
+        <button class="btn" data-deck="fe">✝️ Fe</button>
+        <button class="btn" data-deck="comunidad">🤝 Comunidad</button>
+        <button class="btn" data-deck="biblia">📖 Biblia</button>
+        <button class="btn" data-deck="especial">🎯 Especial</button>
+        <button class="btn secondary" id="btn-random">🎲 Aleatorio</button>
+      </div>
+      <div class="row" style="margin-left:auto">
+        <button class="btn" id="btn-again">🔁 Repetir</button>
+        <button class="btn" id="btn-reset">♻️ Reiniciar mazos</button>
+        <button class="btn" id="btn-copy">📋 Copiar</button>
+      </div>
+    </div>
+
+    <main>
+      <section class="card-area">
+        <div class="card-shell">
+          <div id="card" class="card" role="region" aria-live="polite">
+            <div class="card-face card-front"><div id="card-text">Toca un mazo o toca la carta para comenzar</div></div>
+              <div class="card-face card-back"><div id="card-back-text">Toca un mazo o la carta para comenzar</div></div>
+          </div>
+        </div>
+        <div class="footer" style="width:100%">
+          <div class="small muted" id="status">Mazos disponibles: —</div>
+          <div class="small muted">Cartas jugadas: <span id="played-count">0</span></div>
+        </div>
+      </section>
+
+      <aside class="sidebar">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+          <strong>Historial</strong>
+          <button class="btn" id="clear-history" style="padding:6px 10px">Limpiar</button>
+        </div>
+        <div class="history" id="history"></div>
+      </aside>
+    </main>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
