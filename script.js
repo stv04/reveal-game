@@ -18,77 +18,20 @@
  * - especial: Retos, oraciones y momentos de adoración
  */
 const mazos = {
-    luz: [
-        "¿Has usado memes cristianos para evangelizar?",
-        "¿Has bailado alguna canción cristiana?",
-        "¿Has confundido un versículo en público?",
-        "¿Has hecho una historia en Instagram desde la iglesia?",
-        "¿Has hecho una broma durante una reunión de célula?",
-        "¿Has usado stickers cristianos en WhatsApp?",
-        "¿Alguna vez te has dormido durante el sermón?",
-        "¿Has cantado una alabanza en la ducha?",
-        "¿Has intentado explicar un versículo y te has enredado?",
-        "¿Cuál es tu meme cristiano favorito?",
-        "¿Has tratado de evangelizar usando referencias de películas?",
-        "¿Alguna vez has confundido la letra de una alabanza?"
-    ],
-    fe: [
-        "¿Qué oración te ha marcado últimamente?",
-        "¿Has sentido que Dios te respondió directamente?",
-        "¿Qué significa para ti 'ser luz en el mundo'?",
-        "¿Has compartido tu fe con alguien fuera de la iglesia?",
-        "¿Has sentido consuelo al leer la Biblia en momentos difíciles?",
-        "¿Has ayunado por una causa específica?",
-        "¿Cuál fue el momento en que más cerca te sentiste de Dios?",
-        "¿Qué versículo te ayuda cuando tienes dudas?",
-        "¿Cómo explicarías tu fe a un niño?",
-        "¿Qué testimonio personal te gustaría compartir?",
-        "¿Qué hábito espiritual te gustaría desarrollar?",
-        "¿Cómo mantienes tu fe en momentos difíciles?"
-    ],
-    comunidad: [
-        "¿A quién del grupo admiras por su fe?",
-        "¿Has ayudado a alguien del grupo en un momento difícil?",
-        "¿Qué actividad cristiana te gustaría hacer con este grupo?",
-        "¿Has orado por alguien aquí sin que lo supiera?",
-        "¿Has invitado a alguien nuevo a la iglesia?",
-        "¿Has participado en una actividad de servicio comunitario con tu grupo?",
-        "¿Qué te hizo elegir esta iglesia/grupo?",
-        "¿Qué momento especial has vivido con este grupo?",
-        "¿Cómo te gustaría servir en la iglesia?",
-        "¿Qué te hace sentir bienvenido en la comunidad?",
-        "¿Qué proyecto te gustaría iniciar en la iglesia?",
-        "¿Cómo podemos orar por ti esta semana?"
-    ],
-    biblia: [
-        "¿Puedes nombrar tres mujeres de la Biblia?",
-        "¿Qué personaje bíblico te inspira más?",
-        "¿Qué libro de la Biblia te cuesta entender?",
-        "¿Cuál fue el primer milagro de Jesús?",
-        "¿Qué profeta fue tragado por un pez?",
-        "¿Qué salmo te sabes de memoria?",
-        "¿Cuál es tu historia bíblica favorita y por qué?",
-        "¿Qué parábola de Jesús te parece más relevante hoy?",
-        "¿Qué personaje bíblico te gustaría conocer?",
-        "¿Cuál crees que es el mensaje central de la Biblia?",
-        "¿Qué versículo te ayuda en momentos de ansiedad?",
-        "¿Qué pasaje bíblico te desafía más?"
-    ],
     especial: [
-        "🙏 Oración por agradecimiento",
-        "🙏 Oración por unidad del grupo",
-        "🙏 Oración por sanidad",
-        "🎯 Haz una mímica de una historia bíblica",
-        "🎯 Canta un fragmento de tu alabanza favorita",
-        "📖 Comparte un versículo que te da paz",
-        "🙏 Oración por la familia",
-        "🎯 Dibuja una escena bíblica y que el grupo adivine",
-        "📖 Resume un libro de la Biblia en una frase",
-        "🎯 Inventa una parábola moderna",
-        "🙏 Oración por dirección divina",
-        "📖 Comparte una promesa bíblica que te sostiene"
+        "1. Encuentra a alguien que haya viajado a otro país.",
+        "2. Encuentra a alguien que sepa cocinar bien.",
+        "3. Encuentra a alguien que se levante temprano sin problema.",
+        "4. Encuentra a alguien que haya hecho algo muy valiente.",
+        "5. Encuentra a alguien que ame la pizza con piña.",
+        "6. Encuentra a alguien que odie madrugar.",
+        "7. Encuentra a alguien que haya visto una serie completa en un fin de semana.",
+        "8. Encuentra a alguien que tenga una habilidad rara o curiosa.",
+        "9. Encuentra a alguien que haya hecho una locura divertida con amigos.",
+        "10. Encuentra a alguien que sea muy bueno escuchando a los demás.",
     ]
 };
+
 // Estado del juego
 /**
  * Estado del juego
